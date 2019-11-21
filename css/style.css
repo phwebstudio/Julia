@@ -1,0 +1,169 @@
+.preview {
+	background-image: url(../img/bc.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-blend-mode: overlay;
+	background-color: rgba(0, 0, 0, .5);
+	background-position: center;
+	padding: 15em 0 20em 0;
+	text-align: center;
+}
+
+.contact .contact-item {
+	display: flex;
+	text-align: left;
+	align-items: center;
+}
+
+.contact .contact-item img {
+	width: 1.5em;
+	padding: .5em;
+	border-radius: 1em;
+	margin: .5em .5em;
+	background-color: #214737;
+}
+
+.contact .contact-item:hover img {
+	opacity: .85;
+	transition: .25s;
+}
+
+.contact .contact-item span {
+	color: #214737;
+	font-size: 1.25em;
+}
+
+.map {
+	padding: 1em;
+}
+
+.map iframe {
+	margin: 1em auto;
+	width: 100%;
+	display: block;
+	height: 30em;
+}
+
+.social a {
+	margin: .5em;
+}
+
+.social a img {
+	border-radius: 50%;
+}
+
+.social a:hover img,
+.features .features-items .features-item:hover img {
+	transition: .25s;
+	filter: brightness(50%);
+}
+
+.testimotials h3 {
+	margin: 1.5em auto .5em auto;
+}
+
+.feedback input,
+.feedback textarea {
+	width: 75%;
+	margin: 1.5em auto;
+	display: block;
+	padding: 1em;
+	border: none;
+	border-bottom: 3px solid #214737;
+	font-size: 1em;
+	color: #214737;
+	background-color: transparent;
+}
+
+.feedback textarea {
+	resize: none;
+	height: 120px;
+}
+
+.feedback input[type="submit"] {
+	width: 83%;
+	background-color: #303030;
+	color: white;
+	border: none;
+}
+
+.feedback input[type="submit"]:hover,
+.feedback input[type="submit"]:focus {
+	background-color: #214737;
+	cursor: pointer;
+	transition: .1s;
+}
+
+.catalog .catalog-items .catalog-item img {
+	border-radius: 50%;
+	border: 3px solid #214737;
+	width: 50%;
+	margin: 1em auto;
+}
+
+.portfolio img:hover,
+.gallery img:hover,
+.instagram .instagram-items .instagram-item a:hover,
+.sponsors .sponsors-items .sponsors-item img:hover {
+	opacity: .75;
+	transition: .25s;
+}
+
+.portfolio img {
+	width: 95%;
+	margin: 0 auto;
+}
+
+.features .features-items .features-item {
+	width: 25%;
+	align-self: flex-start;
+}
+
+.features .features-items .features-item img {
+	margin-bottom: 1em;
+}
+
+.features .features-items .features-item:hover img {
+	filter: brightness(50%);
+}
+
+.features .features-items .features-item h3 {
+	cursor: default;
+}
+
+.gallery .gallery-items .gallery-item:first-child {
+	width: 400%;
+}
+
+.gallery .gallery-items:last-child .gallery-item img {
+	margin: 1em 0;
+}
+
+.organization .organization-items .organization-item:first-child {
+	text-align: left;
+	width: 125%;
+	margin-right: 2.5em;
+}
+
+.organization .organization-items .organization-item ul li {
+	line-height: 1.75em;
+	font-size: 1em;
+	list-style-image: url(../img/list.png);
+	margin-left: 1.25em;
+	padding-left: .25em;
+}
+
+.organization .organization-items .organization-item a.btn {
+	width: 75%;
+	margin: 1em 0 0 0;
+}
+
+.instagram h2 a {
+	border: 1px solid #214737;
+	padding: .25em;
+}
+
+.instagram .instagram-items {
+	margin: 1em 0;
+}
