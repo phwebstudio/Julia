@@ -19,7 +19,7 @@
 <?php 
 
 if(isset($_POST['submit'])){
-    $to = "trandy-candy@mail.com";
+    $to = "grey.ugh@mail.com";
     $sender_name = $_POST['sender_name'];
     $info = $_POST['sender_name'] . "\r\n" . $_POST['phone'] . "\r\n" . $_POST['message'];
     $subject = 'Обращение с сайта';
@@ -30,7 +30,7 @@ if(isset($_POST['submit'])){
     mail($to,$subject,$info,$headers);
    // mail($from,$subject2,$message2,$headers2); // sends a copy of the message to the sender - Отключено!
     echo "Сообщение отправлено. Спасибо Вам, " . $sender_name . ", мы скоро свяжемся с Вами.";
-    echo "<br /><br /><a href='https://masterskaya-julia.ru'>Вернуться на сайт</a>";
+    echo "<br /><br /><a href='https://masterskaya-djulia.ru'>Вернуться на сайт</a>";
 
 }
 
